@@ -1,0 +1,180 @@
+body {
+    background-color: seashell;
+}
+
+p {
+    font-family: 'Red Hat Display', Arial, sans-serif;
+    font-weight: 400; 
+}
+
+h1 {
+    font-family:'Dela Gothic One', Impact, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: white;
+    padding: 20px 0;
+    top: -20px;
+    position: relative;
+    color: #1c1919;
+}
+
+h2 {
+    font-family: 'Red Hat Display', Arial, sans-serif;
+    font-weight: 900;
+    margin-top: 50px;
+    text-align: center;  
+    color: #1c1919;    
+}
+
+.nav li {
+    display: inline-block;
+    margin: 0 15px 0 0;
+    background-color: lavender;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.nav {
+    width: 800px;
+    position: relative;
+    margin: auto;
+    font-family: 'Red Hat Display', Arial, sans-serif;
+    padding: 0;
+    text-align: center;     
+}
+
+a {
+    text-decoration: none;
+    color: #0000ff;
+}
+
+.nav li:hover {
+    opacity: 0.7;
+}
+
+.colors, .fonts, .textstyles {
+    width: 800px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    font-family: 'Red Hat Display', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;       
+}
+.color1 {
+    background-color: #0000ff;
+    display: inline-block;
+    padding: 50px;
+    width: 100px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.color2 {
+    background-color: #c2c2fb;
+    display: inline-block;
+    padding: 50px;
+    width: 100px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    color: #0000ff;
+}
+
+.color3 {
+    background-color: #1c1919;
+    display: inline-block;
+    padding: 50px;
+    width: 100px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.font1, .font2, .font3, .style1, .style2, .style3 {     
+    background-color: #fff;
+    display: inline-block;
+    padding: 0px 0px 20px 0px;
+    width: 800px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    color: #1c1919;  
+    margin-bottom: 20px; 
+}
+
+.font1 h3 {
+    font-family:'Dela Gothic One', Impact, sans-serif;  
+    font-size: 22px;
+    text-decoration: underline;     
+}
+
+.font1 p {
+    font-family:'Dela Gothic One', Impact, sans-serif;  
+    font-size: 12px;
+}
+
+.font2 h3 {
+    font-family:'Spline Sans Mono', 'Courier New', Courier, monospace;  
+    font-size: 22px;
+    text-decoration: underline;     
+}
+
+.font2 p {
+    font-family:'Spline Sans Mono', 'Courier New', Courier, monospace;  
+    font-size: 13px;
+}
+
+.font3 h3 {
+    font-family: 'Red Hat Display', Arial, sans-serif;
+    font-size: 22px; 
+    text-decoration: underline;
+}
+
+.font3 p {
+    font-family: 'Red Hat Display', Arial, sans-serif;
+    font-size: 14px;
+}
+
+p.regular {
+    font-weight: 400;
+}
+
+p.bold {
+    font-weight: 800;
+}
+
+p.heavy {
+    font-weight: 900;
+}
+
+p.italic {
+    font-style: italic;  
+}
+
+.style1 h3 {
+    font-family:'Dela Gothic One', Impact, sans-serif;  
+    text-transform: uppercase;  
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.style2 h3 {
+    font-family: 'Red Hat Display', Arial, sans-serif;
+    font-size: 24px;  
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.style3 h3 {
+    font-family: 'Red Hat Display', Arial, sans-serif;
+    font-size: 15px;  
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-weight: 400;
+}
